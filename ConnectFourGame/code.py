@@ -1,10 +1,10 @@
 Board = [['0','1','2','3','4','5','6'],
         [' ',' ',' ',' ',' ',' ',' '],
-        [' ',' ',' ',' ',' ',' ',' '],
-        [' ',' ',' ',' ',' ',' ',' '],
-        [' ',' ',' ',' ',' ',' ',' '],
-        [' ',' ',' ',' ',' ',' ',' '],
-        [' ',' ',' ',' ',' ',' ',' ']]
+        [' ',' ','X',' ',' ',' ',' '],
+        [' ','X','O','X',' ',' ',' '],
+        [' ','O','O','O','X','X',' '],
+        [' ','O','X','O','X','X',' '],
+        [' ','O','X','X','O','O','O']]
 
 # Print the board
 def printBoard(board):
@@ -81,7 +81,7 @@ def downrightCheck(Location, player, status=0):
   if Board[row][col] != player:
     return status
   
-  newLocation = (row+1, col-1)
+  newLocation = (row+1, col+1)
   return downrightCheck(newLocation, player, status+1)
 
 def checkWin(player):
@@ -109,23 +109,25 @@ def checkWin(player):
   return False
 
 #determines which player is up
-turnCounter=1
+turnCounter = 0
 Gameover = False
+printBoard(Board)
+  
 while Gameover == False:
-  printBoard(Board)
-  turnCounter += 1
   if turnCounter%2 == 1:
     player = 'X'
   else:
     player = 'O'
+  
   print("Player (", player, ") move", end='. ')
-  usermove=input("Enter a move (0-6): ")
-  if validMove(usermove,Board):
-    
+  usermove = input("Enter a move (0-6): ")
+  
+  if validMove(usermove, Board):
+    turnCounter += 1
     row = placeMove(usermove)
-    
     Board[row][int(usermove)]=player
     printBoard(Board)
+    
   if checkWin(player) == True:
     print(f"{player} You won") 
     Gameover = True
