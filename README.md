@@ -12,8 +12,9 @@ Various Code projects for TheCoderSchool classes in shorthills
 <br />
 
 > ## Java Projects:
->> ++ [NFLPlayer](https://replit.com/@AmroDewedar/NFLPlayer#Main.java)
+>> ++ [DreamRoster](https://replit.com/@AmroDewedar/NFLPlayer#Main.java)
 >>> - This is a program that will print information about NFL Players
 >>> - The project is coded in Java and introduced the concept of Classes and OOP.
+>>> - (In progress)
 
 Written by: Amro Dewedar
