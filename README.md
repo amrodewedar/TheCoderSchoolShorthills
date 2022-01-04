@@ -7,6 +7,7 @@ Various Code projects for TheCoderSchool classes in shorthills
 >>> - This is a two player connect four game. 
 >>> - The game is coded in Python and uses recursion to check if either player scored four in a row. 
 >>> - The project also uses 2D array. The recursive functions could be replaced with for loops. 
+>>> 
 >> ++ [BinaryHexDecimal Converter](https://replit.com/@AmroDewedar/ConnectFourrecursive#main.py)
 >>> - A converter that converts from Decimal to either binary or hex and vice versa. 
 >>> - Has a nice user interface (teaching organization), and is a fun logical puzzle. 
