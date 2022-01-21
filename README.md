@@ -1,6 +1,6 @@
 # TheCoderSchoolShorthills
 
-Various Code projects for TheCoderSchool classes in shorthills
+Various simple code projects (click the project name to demo):
 
 > ## Python Projects:
 >> ++ [Connect Four](https://replit.com/@AmroDewedar/SawyerConnectFour#main.py)
@@ -10,8 +10,14 @@ Various Code projects for TheCoderSchool classes in shorthills
 >>> 
 >> ++ [BinaryHexDecimal Converter](https://replit.com/@AmroDewedar/ConnectFourrecursive#main.py)
 >>> - A converter that converts from Decimal to either binary or hex and vice versa. 
->>> - Has a nice user interface (teaching organization), and is a fun logical puzzle. 
+>>> - Has a nice user interface (teaches organization), and is a fun logical puzzle. 
 >>> - I used the example form https://www.rapidtables.com/convert/number/decimal-to-hex.html?x=30 to let the student figure it out with some hints. 
+>>> 
+>> ++ [DreamRoster](https://replit.com/@AmroDewedar/DreamRoster#main.py)
+>>> - A program that allows the user to build a dream team roster. 
+>>> - Has a friendly user interface (teaches organization).
+>>> - Uses classes in a practical way (teaches project building with various files).
+>>> - Uses a file for storing user data (teaches input/output streams).
 
 <br />
 <br />
