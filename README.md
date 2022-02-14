@@ -18,6 +18,15 @@ Various simple code projects (click the project name to demo):
 >>> - Has a friendly user interface (teaches organization).
 >>> - Uses classes in a practical way (teaches project building with various files).
 >>> - Uses a file for storing user data (teaches input/output streams).
+>>> 
+>> ++ [Pong](https://replit.com/@AmroDewedar/Pong#main.py)
+>>> - A two player pong game using the Pygame library.
+>>> - High emphasis on functions (divides the various jobs into functions with single responsiblity).
+>>> - Uses classes in a practical way (teaches project building with various files).
+>>> - Big project, need to stay organized to not lose track of what the different parts of the project do.
+>>> - naming is very important to keep the code clear.
+
+
 
 <br />
 <br />
